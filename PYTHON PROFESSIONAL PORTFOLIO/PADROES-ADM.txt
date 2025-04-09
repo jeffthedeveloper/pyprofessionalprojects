@@ -1,0 +1,157 @@
+tem um porém também, em alguns trechos o padrão muda, por exemplo, em alguns o ERRADA. vem antes do comentário da questão
+
+em outras ocasiões o ERRADA. vem depois do comentário da questão.
+
+O MESMO VALE PARA INCORRETA, CERTA, CORRETA E OUTRAS VARIAÇÕES DE PALAVRAS SINÔNIMAS.
+
+CORRETA. 142
+ERRADA. 216
+INCORRETA. 42
+CERTA. 50
+
+GABARITO: ALTERNATIVA X. OU GABARITO: ALTERNATIVA "X" 188 CORRESPONDÊNCIA 
+
+Errada. Está correto apenas o fato narrado no segundo[...]
+Certa. De acordo com a Lei n. 8.987/1995, art. 38, § 1º, inciso II, a caducidade da concessão
+poderá ser declarada pelo poder concedente quando a concessionária descumprir cláusulas
+contratuais [...]
+
+– ERRADA (199 ocorrências no padrão abaixo)
+
+
+a) a competência para edição de atos normativos pode alcançar várias autoridades administrativas, não se
+limitando ao Chefe do Poder Executivo. Com efeito, as agências reguladoras e outros órgãos de caráter
+técnico costumam ter competência para editar atos normativos técnicos, por intermédio dos denominados
+regulamentos autorizados. Assim, as entidades da Administração Indireta podem exercer, em algum
+aspecto, o poder normativo – ERRADA;
+
+
+ERRADA.
+d) a competência para edição das matérias relativas aos decretos autônomos é passível de delegação para
+os ministros de Estado, Advogado Geral da União e para o Procurador Geral da República (CF, art. 84, VI e
+parágrafo único). No entanto, não existe previsão de delegação para a Administração Indireta – ERRADA;
+
+ormativo é subordinado à lei, viabilizando a edição de normas de caráter secundário.
+Com efeito, a doutrina fala justamente da utilização dos regulamentos para estabelecer o procedimento
+para aplicação da lei. Porém, o item está incorreto por dois motivos: (i) alguns atos normativos
+efetivamente inovam na ordem jurídica, não dependendo de lei prévia. É o caso dos decretos autônomos.
+Com isso, por generalizar o caso, a questão estaria errada; (ii) nem sempre o Executivo seria obrigado a
+regulamentar, mas somente quando a lei dependesse da regulamentação para produzir efeitos – ERRADA;
+
+d) complementando a explicação acima, temos que a Constituição Federal, em situações específicas (art.
+84, VI), autoriza a edição dos chamados decretos autônomos, que são atos normativos de natureza
+primária, já que não dependem de uma lei anterior para serem editado – CERTA (1 OCORRÊNCIA)
+
+– CORRETA 36 OCORRÊNCIAS
+
+essa é a previsão da Súmula 473 do STF, que traduz um poder-dever da
+Administração anular seus próprios atos, quando eivados de vícios que os
+tornam ilegais, porque deles não se originam direitos; ou revogá-los, por motivo
+de conveniência ou oportunidade, respeitados os direitos adquiridos, e
+ressalvada, em todos os casos, a apreciação judicial – CORRETA;
+
+e) na revogação, não há invalidade. Os atos discricionários possuem elementos
+passiveis de serem valorados pelo agente, de forma que podem se tornar, após
+algum tempo, inconvenientes ou inoportunos para a Administração. Tendo isso
+em mente, pode ser feita a revogação de um ato válido, mas que não é mais
+interessante de ser mantido – CORRETA.
+
+c) isso mesmo. Nos atos discricionários há uma certa margem de liberdade na
+atuação do agente, que deve, no entanto, observar os parâmetros legais –
+CORRETA;
+
+c) exato! A responsabilidade é objetiva, sendo assegurado o direito de regresso contra o agente
+causador. A questão só não especificou que o direito de regresso somente surge quando houver
+dolo ou culpa do agente. Mesmo assim, é a melhor alternativa entre as disponíveis – CORRETA;
+
+b) a atuação administrativa está subordinada aos princípios da legalidade e da impessoalidade. Isso, no
+entanto, não impede que, em casos de urgência, a Administração adote medidas para defender o interesse
+público, a exemplo das contratações temporárias para atender a necessidades temporárias de excepcional
+interesse público (CF, art. 37, IX) ou dos casos de dispensa e inexigibilidade de contratação, que podem ser
+realizados sem procedimento de seleção34. Portanto, nesses casos, as relações jurídicas foram firmadas
+com os administrados sem um processo específico de seleção (concurso público, licitação pública) –
+CORRETA
+
+d) o poder de polícia permite que a Administração restrinja o exercício de atividades privadas, em benefício
+do interesse público. Pode ser preventivo, que se manifesta em atos de consentimento; ou repressivo,
+presente nos atos punitivos, exatamente como no caso da apreensão de mercadorias – CORRETA;
+
+import PyPDF2
+import re
+import pandas as pd
+
+def limpar_texto(texto):
+    """
+    Função para limpar o texto, removendo ou substituindo caracteres indevidos.
+    """
+    # Substituir múltiplos espaços e quebras de linha
+    texto = re.sub(r'\s+', ' ', texto)
+    # Remover caracteres especiais
+    texto = re.sub(r'[^\w\s.,;:!?]', '', texto)
+    return texto.strip()
+
+def analisar_questoes_pdf(caminho_pdf):
+    questoes_corretas = []
+    questoes_erradas = []
+
+    try:
+        with open(caminho_pdf, 'rb') as arquivo_pdf:
+            leitor_pdf = PyPDF2.PdfReader(arquivo_pdf)
+            for pagina_num, pagina in enumerate(leitor_pdf.pages):
+                texto = pagina.extract_text()
+
+                # Depuração: Verificar o texto extraído
+                print(f"Texto extraído da página {pagina_num + 1}:\n{texto}\n")
+
+                # Padrões ajustados para capturar o texto completo antes de "Questão correta." ou "Questão errada."
+                # Usando regex com case-insensitive (re.IGNORECASE)
+                padrao_correta = r"(.*?)\.\s*(Questão\s*(correta|certa|correto|acerto)|Resposta:\s*(correta|certa))\.?"
+                padrao_errada = r"(.*?)\.\s*(Questão\s*(errada|incorreta|erro)|Resposta:\s*(errada|incorreta))\.?"
+
+                corretas = re.findall(padrao_correta, texto, re.IGNORECASE | re.DOTALL)
+                erradas = re.findall(padrao_errada, texto, re.IGNORECASE | re.DOTALL)
+
+                # Depuração: Verificar os padrões encontrados
+                print(f"Padrões corretos encontrados na página {pagina_num + 1}: {corretas}")
+                print(f"Padrões errados encontrados na página {pagina_num + 1}: {erradas}\n")
+
+                # Limpar e adicionar as questões às listas
+                questoes_corretas.extend([limpar_texto(c[0]) for c in corretas])
+                questoes_erradas.extend([limpar_texto(e[0]) for e in erradas])
+
+    except FileNotFoundError:
+        print(f"Erro: O arquivo PDF '{caminho_pdf}' não foi encontrado.")
+        return None
+    except Exception as e:
+        print(f"Ocorreu um erro ao processar o arquivo PDF: {e}")
+        return None
+
+    # Garantir que as listas tenham o mesmo comprimento
+    max_len = max(len(questoes_corretas), len(questoes_erradas))
+    questoes_corretas += [""] * (max_len - len(questoes_corretas))
+    questoes_erradas += [""] * (max_len - len(questoes_erradas))
+
+    # Criar DataFrame
+    dados = {
+        "Questões Corretas": questoes_corretas,
+        "Questões Erradas": questoes_erradas
+    }
+    df = pd.DataFrame(dados)
+
+    return df
+
+# Caminho do PDF
+caminho_pdf = r"C:\Users\Jeff.DESKTOP-CQT2E9A\Downloads\Curso Direito ADM.pdf"
+
+# Processar o PDF e gerar o CSV
+resultado = analisar_questoes_pdf(caminho_pdf)
+
+if resultado is not None:
+    print(resultado)
+    if not resultado.empty:
+        # Salvar o DataFrame em um arquivo CSV
+        resultado.to_csv('questoes_analisadas_adm.csv', index=False, encoding='utf-8')
+        print("Arquivo CSV 'questoes_analisadas.csv' salvo com sucesso!")
+    else:
+        print("Nenhuma questão correspondente ao padrão foi encontrada no PDF.")
+

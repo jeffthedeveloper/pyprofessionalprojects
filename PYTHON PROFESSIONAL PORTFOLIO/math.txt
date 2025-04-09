@@ -1,0 +1,52 @@
+Considerando N como o conjunto dos números naturais, Z como o conjunto dos números inteiros, Q como o conjunto dos números racionais, R como o conjunto dos números reais e X' como o complementar do conjunto X, julgue os itens de 29 a 32 acerca dos conjuntos numéricos, de suas operações, propriedades e aplicações, das operações com conjuntos e da compreensão das estruturas lógicas e dos respectivos diagramas.
+
+29 (N ∩ Q)' = (R - Z). 
+
+30 (Z - N) ∪ (Q - Z) ⊂ (R - Q). 
+
+31 O valor-verdade da expressão lógica (-3 ∈ N) ↔ (7 ∈ R) ∧ (3,1416 ∈ Q) é V. 
+
+32 É correto afirmar que o diagrama a seguir representa corretamente a afirmação: "Se não é um número real, então não é um número natural". 
+
+Um anagrama (do grego ana = voltar ou repetir e graphein = escrever) é uma espécie de jogo de palavras que resulta do rearranjo das letras de uma palavra ou expressão para produzir outras palavras ou expressões, utilizando todas as letras originais exatamente uma vez. 
+ 
+Um exemplo conhecido é a personagem Iracema, anagrama de América, no romance de José de Alencar. 
+Com base nessas informações, julgue os itens de 33 a 35 a respeito do princípio da contagem, de permutações, de combinações e do cálculo de probabilidade.
+   
+33 Há mais de 160.000 anagramas possíveis de serem obtidos a partir da palavra "ASSISTENTE". 
+
+34 Ao escrever cada letra da palavra "FISCAL" em uma bola e colocar todas as bolas em uma urna, a probabilidade de se retirar duas delas e ambas serem consoantes é inferior a 30%. 
+
+35 O STF conta, atualmente, com onze ministros, sendo nove homens e duas mulheres. 
+Há duas turmas de cinco componentes cada uma e o presidente, que não participa de nenhuma turma.   
+Se, em um dado instante, com um homem ocupando a presidência, sortearem-se, aleatoriamente, os dez ministros restantes para a composição das duas turmas, é superior a cem a quantidade de maneiras distintas de se distribuírem esses dez ministros nas duas turmas de forma que, em cada uma delas, haja exatamente uma mulher.   
+
+Considerando as proposições P1: "Ou é par, ou é ímpar", P2: "É par se, e somente se, não é ímpar" e C: "Não é ímpar", julgue os itens 36 e 37 quanto à compreensão das estruturas lógicas e à lógica da argumentação.  
+36 As proposições P1 e P2 são contraditórias. 
+
+37 É correto afirmar que o silogismo PPC é um argumento válido. 
+
+39 Suponha-se que o preço a ser pago para o transporte de bagagem aérea despachada seja R$ 50,00 por bagagem até 20 kg, R$ 5,00 por kg excedente até 40 kg e R$ 12,00 por kg que exceder esses 40 kg.  
+
+40 Para que o passageiro consiga viajar sem precisar despachar sua mala, o limite de peso permitido para bagagens de mão passou a a ser de 10 kg permitido somente um único volume e o tamanho costuma ficar entre 115 e 120 cm, somadas as três dimensões (as variações são esclarecidas em cada companhia). 
+
+Considerando-se que uma polegada (inch, na lingual inglesa, abreviatura in) corresponda a 2,54 cm, se um passageiro tiver uma bagagem com dimensões iguais a 30 cm, 40 cm e 50 cm, o volume de sua bagagem será inferior a 4.000 in. 
+
+79 Em uma média aritmética, a soma algébrica dos desvios tomados em relação a ela é igual a zero. 
+
+80 Em um determinado conjunto de valores, é correto afirmar que a média harmônica é sempre maior que a média aritmética ou igual à média aritmética. 
+
+81 É correto afirmar que o conjunto X={1, 2, 2, 3, 3, 3, 3, 4, 4, 5, 6} é amodal. 
+
+82 É correto afirmar que a mediana do conjunto X={1, 1, 2, 3, 5, 5, 5, 6} é igual a 4.
+
+
+Uma pesquisa realizada pela Fundação Perseu Abramo, em parceria com o Sesc, projeta uma chocante estatística: a cada dois minutos, cinco mulheres são agredidas violentamente no Brasil. E já foi pior: há dez anos, eram oito mulheres espancadas no mesmo intervalo.
+
+A pesquisa "Mulheres brasileiras e gênero nos espaços público e privado", realizada em 25 estados brasileiros, ouviu 2.365 mulheres e 1.181 homens com mais de quinze anos de idade. Estima-se que 7,2 milhões de mulheres com mais de quinze anos de idade já sofreram agressões - 1,3 milhão nos doze meses que antecederam a pesquisa.
+
+O estudo apresenta também dados inéditos acerca do que os homens pensam sobre a violência contra as mulheres. Enquanto 8% admitem já ter batido em uma mulher, 48% dizem ter um amigo ou conhecido que fez o mesmo e 25% declaram ter parentes que agridem as companheiras. Ainda assim, surpreende que 2% dos homens declarem que "tem mulher que só aprende apanhando bastante". Além disso, entre os 8% que assumem praticar a violência, 14% acreditam ter "agido bem" e 15% declaram que bateriam de novo. Entre as motivações das agressões, surgem com papel preponderante o ciúme (32%), o álcool (12%) e a infidelidade ou suspeita de infidelidade (9%).
+
+A diminuição do número de mulheres agredidas entre 2001 e 2010, ainda que pequena, pode ser atribuída, em parte, à Lei Maria da Penha, que proporcionou uma crescente consciência do problema. Inclusive, entre os pesquisados, 85% dizem conhecer a lei e 80% aprovam a nova legislação. Mesmo entre os 11% que a criticam, a principal ressalva é ao fato de que a lei é insuficiente.
+
+A lei, sem dúvida, é insuficiente. A mulher que apanha não deseja, via de regra, ver seu companheiro (ou o ex-companheiro) preso.

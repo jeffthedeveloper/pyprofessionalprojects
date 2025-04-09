@@ -1,0 +1,6 @@
+npx @react-native-community/cli init
+npx react-native doctor
+npx react-native run-android 
+npx react-native start
+npx create-expo-app@latest
+

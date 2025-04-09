@@ -1,0 +1,198 @@
+PÁGINAS QUE NÃO CONTEM PROJETOS:
+
+7
+8
+
+
+PROJETOS
+Increase Engagement to your Instagram Business Profile 
+Project
+
+https://www.coursera.org/learn/increase-engagement-instagram-business-profile/supplement/MhGNK/project-overview
+
+COVID19 Data Analysis Using Python
+
+https://coursera.org/share/3cc2de63e7bcf4c83fb94632f524704e
+
+
+Preparation for Job Interviews
+Project
+
+https://coursera.org/share/eaf6a2a098c4493734dde257b73effdd
+
+Analyze Network Traffic with TCPDump: Build a Logging Tool
+Project
+
+https://coursera.org/share/c845167d52a41ea3e1392a15ff6c959d
+
+Create a Project Charter with Google Docs
+Project
+
+https://coursera.org/share/1d3d619940392d43cb8ba677298fca56
+
+
+Adobe Photoshop for Beginners: Generative AI Images
+Project
+
+https://coursera.org/share/06857766ac6473fbcb5dffd2eb040c32
+
+
+Tweet Emotion Recognition with TensorFlow
+Project
+
+https://coursera.org/share/acd1369706106d7956d65a4dc14c3fd9
+
+How to use roadmaps in Jira
+Project
+
+https://coursera.org/share/301177adf71283e1628d9d30c58ba007
+
+
+Introduction to Project Management with ClickUp
+Project
+
+https://coursera.org/share/1eeca0649c2dc74df93fe159db3b513e
+
+
+Build a Full Website using WordPress
+Project
+
+https://coursera.org/share/511ebcd090ac30d514eaca5f481d10b1
+
+Public Speaking with Canva
+Project
+
+https://coursera.org/share/6598e3d979f4c06a8b525467ece9e2d6
+
+
+Investment Risk Management
+Project
+
+https://coursera.org/share/a5638342b1876907589b575db3196870
+
+
+Get started with Asana
+Project
+
+https://coursera.org/share/4993b3ecdafade4beea69d36483ca2e3
+
+
+Introduction to Project Management
+Project
+
+https://coursera.org/share/9bb9370e20afcf309fbadd017533a246
+Get started with Jira
+Project
+
+https://coursera.org/share/9a44738768a5d1c70847b229c183b4ef
+
+
+Create Your First Python Program From UST
+Project
+
+https://coursera.org/share/addbda3034c368ee9d8a59fa9b4b4496
+
+Collaborating with G Suite Apps
+Project
+
+https://coursera.org/share/c264ae5fd0e6a44c6c03509038222dae
+
+Project Management: Creating the WBS
+Project
+
+https://coursera.org/share/fe51343e174dab0c6be61292d2a81308
+
+How To Visualize Your Data Using Microsoft Powerpoint
+Project
+
+https://coursera.org/share/d7e3d49ef728b3684c5e10202d954638
+
+Create a Project Management Tracker using Microsoft Excel
+Project
+
+
+https://www.coursera.org/learn/create-project-management-tracker-microsoft-excel/home/welcome
+
+Comercialice su nuevo negocio con Canva
+
+https://www.coursera.org/learn/comercialice-nuevo-negocio-canva/home/welcome
+
+Google Ads for Beginners
+
+https://www.coursera.org/learn/google-ads-beginner/home/welcome
+
+Build a free website with WordPress
+
+https://www.coursera.org/learn/build-free-website-wordpress/home/welcome
+
+Business Analysis & Process Management
+
+https://www.coursera.org/learn/business-analysis-process-management/home/welcome
+
+Getting Started with Microsoft Excel
+
+https://www.coursera.org/learn/introduction-microsoft-excel/home/welcome
+
+Conociendo Canva, tu nueva herramienta de diseño favorita
+
+https://www.coursera.org/learn/conociendo-canva/home/welcome
+
+Crea y diseña productos digitales en Canva
+
+https://www.coursera.org/learn/crea-disena-productos-digitales-canva/home/welcome
+
+Crear un Business Model Canvas con Miro (30 MIN)
+
+​https://www.coursera.org/learn/crear-un-business-model-canvas-con-miro/home/welcome
+
+Gestión de proyectos e historias de usuario con Jira
+
+https://www.coursera.org/learn/gestion-de-proyectos-e-historias-de-usuario-con-jira/home/welcome
+
+Crear un panel de inspiración para su marca con Canva
+
+https://www.coursera.org/learn/crear-panel-inspiracion-marca-con-canva/home/welcome
+
+ETL pipelines con Python: recopila datos de Spotify
+
+https://www.coursera.org/learn/etl-pipelines-con-python-recopila-datos-de-spotify/home/welcome
+
+Configuración de APIs en Python: Crea un API REST
+
+https://www.coursera.org/learn/configuracin-de-apis-en-python-crea-un-api-rest/home/welcome
+
+Crea un organigrama con Canva
+
+https://www.coursera.org/learn/crea-organigrama-canva/home/welcome
+
+Crea una Declaración de Misión y Visión con Canva
+
+https://www.coursera.org/learn/crea-declaracion-mision-vision-canva/home/welcome
+
+Crea un Storyboard con Canva
+
+https://www.coursera.org/learn/crea-storyboard-canva/home/welcome
+
+Optimice procesos de comunicación con Gmail
+
+https://www.coursera.org/learn/optimice-procesos-comunicacion-gmail/home/welcome
+
+Project Management: Gestiona tu proyecto y equipo con Canva
+
+https://www.coursera.org/learn/gestion-proyectos/home/welcome
+
+Trabajando de inicio a fin con GIT
+
+https://www.coursera.org/learn/git-inicio-fin/home/welcome
+
+Trello para Principiantes
+
+https://www.coursera.org/learn/trello-para-principiantes-kykmi/home/welcome
+
+Mejores prácticas para el procesamiento de datos en Big Data
+
+https://www.coursera.org/learn/mejores-practicas-big-data/home/welcome
+
+Crea diseños y prototipos de alta fidelidad en Figma
+
+https://www.coursera.org/learn/crea-diseos-y-prototipos-de-alta-fidelidad-en-figma/home/welcome
